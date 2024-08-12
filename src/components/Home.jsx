@@ -29,9 +29,9 @@ const Home = () => {
           <h1 className="text-white text-8xl font-bold my-3">MARTINEZ</h1>
           <h5 className="text-gray-400 text-4xl my-5 animate-pulse animate-infinite animate-duration-[3000ms]">Web Developer</h5>
           <div className=" py-3 px-6  text-white flex mt-20 justify-between">
-            <a href=""> <BsLinkedin className=" w-10 h-10 animate-rotate-y animate-infinite animate-duration-[3000ms] hover:text-sky-700"/></a> 
+            <a href="https://www.linkedin.com/in/uriel-martinez-41ab2a116/"> <BsLinkedin className=" w-10 h-10 animate-rotate-y animate-infinite animate-duration-[3000ms] hover:text-sky-700"/></a> 
             <a href="https://github.com/Martz94"><BsGithub className=" w-10 h-10 animate-rotate-y animate-infinite animate-duration-[3000ms] hover:text-sky-700"/></a>
-            <AiTwotoneMail className=" w-11 h-11 animate-rotate-y animate-infinite animate-duration-[3000ms] hover:text-sky-700"/>
+            <a href="https://mail.google.com/"><AiTwotoneMail className=" w-11 h-11 animate-rotate-y animate-infinite animate-duration-[3000ms] hover:text-sky-700"/></a> 
           </div>
         </div>   
         <img src="/fotoperfil2.jpg" alt="foto-1" className=" max-w-lg animate-fade-left animate-once animate-duration-[3000ms]" />

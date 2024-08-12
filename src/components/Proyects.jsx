@@ -6,43 +6,50 @@ import Imagen4 from '/proyecto4.png'
 import Imagen5 from '/proyecto5.png'
 import Imagen6 from '/proyecto6.png'
 import { Slide, Fade } from 'react-awesome-reveal'
+import { IoRemoveOutline } from "react-icons/io5";
 
 const CardData = [
     {
         id: 1,
         img: Imagen1,
-        title: " Web Bolaños",
-        desc: "Aplicacion Web de catalogo de productos",
+        title: "APP Web Bolaños",
+        desc: "Construido con NextJS, TypeScript, Tailwind y CMS Contentful",
+        url: "https://pinturasyherrajesbolanos.vercel.app/"
     },
     {
         id: 2,
         img: Imagen2,
         title: "Contador de Calorias",
-        desc: "each character will appear one by one",
+        desc: "Tecnologias: React, TypeScript, Tailwind CSS",
+        url: "https://contador-de-calorias-gamma.vercel.app"
     },
     {
         id: 3,
         img: Imagen3,
-        title: "sunrise",
-        desc: "each character will appear one by one",
+        title: "Cotizador de Criptomonedas",
+        desc: " Tecnologias: React, API Rest y Styled",
+        url: "https://cripto-price-app.netlify.app"
     },
     {
       id: 4,
       img: Imagen4,
-      title: "sunset",
-      desc: "each character will appear one by one",
+      title: "Consultor de Clima",
+      desc: "Tecnologias: React, API Rest, TypeScript y module CSS",
+      url: "https://app-clima-rt.netlify.app"
   },
   {
       id: 5,
       img: Imagen5,
-      title: "dog",
-      desc: "each character will appear one by one",
+      title: "Registraddor de Consulta",
+      desc: "Tecnologias: React, TypeScript y Tailwind CSS",
+      url: "https://consultas-veterinaria-app.netlify.app"
   },
   {
       id: 6,
       img: Imagen6,
-      title: "sunrise",
-      desc: "each character will appear one by one",
+      title: "Characters R&M",
+      desc: "Tecnologias: React, API Rest y Bootstrap",
+      url: "https://characters-rickymorty.netlify.app"
   },
 ]
 
@@ -50,11 +57,11 @@ const Proyects = () => {
   return (
       <div className='min-h-screen grid place-items-center max-w-screen-lg mx-auto'>
           <div className=' container mx-auto'>
-              <h1 className='text-center text-sky-700 font-bold text-3xl mb-14 mt-5 sm:mt-0'>Proyectos</h1>
-
+          <h3 className=' text-sky-700 decoration-4 decoration-sky-700 z-10 font-medium text-4xl text-center pt-20 pb-0'>Proyectos</h3>
+          <IoRemoveOutline className='text-sky-700 mx-auto h-10 w-20 pt-0 mb-10 hover:text-sky-700'/>
               {/*seccion card */}
               <div className=' grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center gap-6'>
-                  {CardData.map(({ id, img, title, desc }) => {
+                  {CardData.map(({ id, img, title, desc, url}) => {
                     return(
                   <div 
                   key={id} 
@@ -78,13 +85,15 @@ const Proyects = () => {
                         <h1 className='text-2xl font-semibold text-zinc-300'>
                           {title}</h1>
                           <Fade cascade damping={0.05}>
-                            {desc}
+                            <p>{desc}</p> 
                           </Fade>
                           <div>
+                            <a href={url}>
                             <button type="button" className=' border
                              border-white px-4 py-2 rounded-lg
                              hover:bg-black/20 duration-300 hover:bg-zinc-800'>
                               ver</button>
+                              </a>
                           </div>
                           </Slide>
                       </div>

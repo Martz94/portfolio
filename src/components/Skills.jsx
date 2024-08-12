@@ -7,14 +7,13 @@ import { IoLibrarySharp } from "react-icons/io5";
 import { SiFramework } from "react-icons/si";
 import { FaBorderStyle } from "react-icons/fa";
 import { FaSyncAlt } from "react-icons/fa";
-import { LuFileJson } from "react-icons/lu";
 
 const Skills = () => {
   return (
     <>
      
       <div className=' max-w-screen-lg mx-auto mb-10'>
-        <h3 className=' text-sky-700 decoration-4 decoration-sky-700 z-10 font-medium text-2xl text-center pt-20 pb-0'>Skills</h3>
+        <h3 className=' text-sky-700 decoration-4 decoration-sky-700 z-10 font-medium text-4xl text-center pt-20 pb-0'>Skills</h3>
         <IoRemoveOutline className='text-sky-700 mx-auto h-10 w-20 pt-0 mb-10 hover:text-sky-700'/>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
           <a href="#" className="block max-w-sm p-6 rounded-md hover:shadow-lg border border-zinc-700 dark:bg-zinc-800 hover:shadow-sky-700 justify-center hover:border-sky-700">
@@ -35,7 +34,7 @@ const Skills = () => {
           <a href="#" className="block max-w-sm p-6 rounded-md hover:shadow-lg border border-zinc-700 dark:bg-zinc-800 hover:shadow-sky-700 justify-center hover:border-sky-700">
             <FaBorderStyle className=' w-24 h-24 mx-auto text-sky-700 mb-2'/>
             <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white mx-auto">Preprocesadores</h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400 mx-auto">SASS, Stylus CSS, Modules CSS</p>
+            <p className="font-normal text-gray-700 dark:text-gray-400 mx-auto">SASS, Styled CSS, Modules CSS</p>
           </a>
           <a href="#" className="block max-w-sm p-6 rounded-md hover:shadow-lg border border-zinc-700 dark:bg-zinc-800 hover:shadow-sky-700 justify-center hover:border-sky-700">
             <FaSyncAlt className=' w-24 h-24 mx-auto text-sky-700 mb-2'/>
@@ -53,7 +52,7 @@ const Skills = () => {
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
                     <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
                   </span>
-                </div>
+                </div>               
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Universidad</time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Instituto Tecnologico Superior de Coatzacoalcos</h3>
                 <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Me titule en ingenieria informatica, donde realice diferentes proyectos durante el servicio social y residencia,</p>
@@ -94,8 +93,8 @@ const Skills = () => {
               </li>
               <li className="ms-4">
                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border dark:border-gray-900 border-sky-700 dark:bg-sky-700"></div>
-                <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Bolaños</time>
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Pagina web de la Empresa</h3>
+                <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">App Web de Productos</time>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Comercio Bolaños</h3>
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">Realice aplicacion web con diferentes tecnologias, donde se muestran el catalogo de productos y la administracion de los mismos. </p>
               </li>
             </ol>
