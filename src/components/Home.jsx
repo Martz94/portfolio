@@ -10,7 +10,7 @@ const Home = () => {
     words: [
         "Hola",
         "Bienvenido",
-        "Soy "
+        "Front-End"
     ],
     loop: true,
     typeSpeed: 80,
@@ -20,15 +20,15 @@ const Home = () => {
 
   return (
     <>
-    <div className="relative flex items-center justify-center h-screen overflow-hidden">
-      <video src="/video-bg1.mp4" autoPlay="{true}" loop muted className="absolute pt-20 w-auto min-w-full object-contain h-auto max-w-none" ></video>
-      <div className="flex max-w-screen-lg mx-auto gap-5 z-10">
-        <div className=" mt-36 z-20">
-          <h5 className=" text-sky-600 text-4xl my-3">{text}<Cursor cursorBlinking cursorStyle="|" cursorColor="#fff" /></h5>
-          <h1 className="text-white text-8xl font-bold my-3 animate-flip-down animate-once animate-duration-[3000ms]">URIEL </h1>
-          <h1 className="text-white text-8xl font-bold my-3">MARTINEZ</h1>
-          <h5 className="text-gray-400 text-4xl my-5 animate-pulse animate-infinite animate-duration-[3000ms]">Web Developer</h5>
-          <div className=" py-3 px-6  text-white flex mt-20 justify-between">
+    <div id='home' className="relative flex items-center justify-center overflow-hidden scroll-mt-[80rem]">
+      <video src="/video-bg1.mp4" autoPlay="{true}" loop muted className="absolute w-auto min-w-full object-fill lg:object-contain h-full lg:h-auto max-w-none" ></video>
+      <div className=" block lg:flex max-w-screen-lg px-5 md:mx-auto gap-5 z-10 ">
+        <div className=" mt-36 z-20 sm:mx-auto ms-16 lg:pt-0 md:ps-0">
+          <h5 className=" text-sky-600 text-2xl lg:text-4xl my-3 ps-10 md:ps-0 md:mx-auto">{text}<Cursor cursorBlinking cursorStyle="|" cursorColor="#fff" /></h5>
+          <h1 className="text-white text-4xl md:text-8xl font-bold my-3 animate-flip-down animate-once animate-duration-[3000ms] ms-10 md:mx-auto">URIEL </h1>
+          <h1 className="text-white text-4xl md:text-8xl font-bold my-3 ms-10 md:mx-auto">MARTINEZ</h1>
+          <h5 className="text-gray-400 text-2xl lg:text-4xl my-5 animate-pulse animate-infinite animate-duration-[3000ms] ms-10 md:mx-auto">Desarrollador Web</h5>
+          <div className=" py-3 px-6 gap-5 text-white flex mt-20 sm:justify-between justify-start ms-5">
             <a href="https://www.linkedin.com/in/uriel-martinez-41ab2a116/"> <BsLinkedin className=" w-10 h-10 animate-rotate-y animate-infinite animate-duration-[3000ms] hover:text-sky-700"/></a> 
             <a href="https://github.com/Martz94"><BsGithub className=" w-10 h-10 animate-rotate-y animate-infinite animate-duration-[3000ms] hover:text-sky-700"/></a>
             <a href="https://mail.google.com/"><AiTwotoneMail className=" w-11 h-11 animate-rotate-y animate-infinite animate-duration-[3000ms] hover:text-sky-700"/></a> 

@@ -14,7 +14,7 @@ const CardData = [
         img: Imagen1,
         title: "APP Web Bolaños",
         desc: "Construido con NextJS, TypeScript, Tailwind y CMS Contentful",
-        url: "https://pinturasyherrajesbolanos.vercel.app/"
+        url: "https://www.pinturasyherrajesbolanos.com/"
     },
     {
         id: 2,
@@ -55,9 +55,9 @@ const CardData = [
 
 const Proyects = () => {
   return (
-      <div className='min-h-screen grid place-items-center max-w-screen-lg mx-auto'>
+      <div id='proyects' className='xl:min-h-screen mb-14 lg:mb-0 grid place-items-center max-w-screen-lg mx-auto px-5'>
           <div className=' container mx-auto'>
-          <h3 className=' text-sky-700 decoration-4 decoration-sky-700 z-10 font-medium text-4xl text-center pt-20 pb-0'>Proyectos</h3>
+          <h3 className=' text-sky-700 decoration-4 decoration-sky-700 z-10 font-medium text-2xl lg:text-4xl text-center pt-20 pb-0'>Proyectos</h3>
           <IoRemoveOutline className='text-sky-700 mx-auto h-10 w-20 pt-0 mb-10 hover:text-sky-700'/>
               {/*seccion card */}
               <div className=' grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center gap-6'>
@@ -70,9 +70,9 @@ const Proyects = () => {
                   >
                   <img
                   src={img} 
-                  alt=""
+                  alt="Louvre" 
                   className=' w-full max-w-[400px] h-[220px] 
-                  rounded-lg'
+                  rounded-lg transition duration-300 ease-in-out hover:scale-110'
                     />
                     {/* overlay seccion */}
                     <div className=' absolute left-0 top-[-100%] 
