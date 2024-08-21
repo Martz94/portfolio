@@ -71,7 +71,7 @@ const Proyects = () => {
                   <img
                   src={img} 
                   alt="Louvre" 
-                  className=' w-full max-w-[400px] h-[220px] 
+                  className=' md:w-full md:max-w-[400px] md:h-[220px] 
                   rounded-lg transition duration-300 ease-in-out hover:scale-110'
                     />
                     {/* overlay seccion */}
@@ -91,7 +91,7 @@ const Proyects = () => {
                             <a href={url}>
                             <button type="button" className=' border
                              border-white px-4 py-2 rounded-lg
-                             hover:bg-black/20 duration-300 hover:bg-zinc-800'>
+                             hover:bg-black/20 duration-300 hover:bg-sky-700'>
                               ver</button>
                               </a>
                           </div>
