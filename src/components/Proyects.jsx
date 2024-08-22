@@ -40,7 +40,7 @@ const CardData = [
   {
       id: 5,
       img: Imagen5,
-      title: "Registraddor de Consulta",
+      title: "Registro de Consulta",
       desc: "Tecnologias: React, TypeScript y Tailwind CSS",
       url: "https://consultas-veterinaria-app.netlify.app"
   },
@@ -55,8 +55,8 @@ const CardData = [
 
 const Proyects = () => {
   return (
-      <div id='proyects' className='xl:min-h-screen mb-14 lg:mb-0 grid place-items-center max-w-screen-lg mx-auto px-5'>
-          <div className=' container mx-auto'>
+      <div id='proyects' className=' bg-zinc-400 dark:bg-zinc-800 xl:min-h-screen pb-20 lg:mb-0 grid place-items-center  mx-auto px-5'>
+          <div className=' container mx-auto max-w-screen-lg pb-2'>
           <h3 className=' text-sky-700 decoration-4 decoration-sky-700 z-10 font-medium text-2xl lg:text-4xl text-center pt-20 pb-0'>Proyectos</h3>
           <IoRemoveOutline className='text-sky-700 mx-auto h-10 w-20 pt-0 mb-10 hover:text-sky-700'/>
               {/*seccion card */}

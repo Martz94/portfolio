@@ -10,7 +10,7 @@ const Skills = () => {
   return (
     <>
      
-      <div id='skills' className=' max-w-screen-lg mx-auto mb-10'>
+      <div id='skills' className=' max-w-screen-lg mx-auto mb-10 md:mb-20'>
         <h3 className=' text-sky-700 decoration-4 decoration-sky-700 z-10 font-medium text-2xl lg:text-4xl text-center pt-20 pb-0'>Habilidades</h3>
         <IoRemoveOutline className='text-sky-700 mx-auto h-10 w-20 pt-0 mb-10 hover:text-sky-700'/>
         <div className=" block sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-8 p-5 mx-auto">
