@@ -19,7 +19,7 @@ const Navbar = () => {
               <div className=' max-w-6xl mx-auto scroll-px-10 sm:px-6 lg:px-8'>
                   <div className=' flex items-center justify-between h-16'>
                       <div className='flex items-center'>
-                          <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
+                          <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                               <img src="/logopersonal.png" className=" h-10 md:h-14" alt="Logo" />
                           </a>
                       </div>
@@ -38,7 +38,7 @@ const Navbar = () => {
                                           spy={true} smooth={true} offset={-50} duration={500}>Contacto</Link>
                                   </div>
                               </div>
-                              <p className=" md:text-zinc-900 dark:md:text-white text-transparent my-auto">|</p>
+                              <p className=" -ms-5 md:ms-0 md:text-zinc-900 dark:md:text-white text-transparent my-auto">|</p>
                               <a href='https://drive.google.com/file/d/1n6oJQwLKgMGf9g_vcatMBpKBaU9dlRLK/view?usp=sharing' className=' items-center ms-auto mx-auto my-auto'>
                                   <button type="button" className=" py-1 px-5 md:py-2 md:px-7 text-sm my-auto  items-center font-medium text-zinc-300 bg-sky-700 rounded-md border border-sky-700 hover:bg-zinc-300 hover:text-sky-700 dark:bg-sky-700 dark:text-zinc-200 dark:border-sky-700 dark:hover:text-sky-700 shadow-lg hover:shadow-sky-700 dark:hover:bg-gray-700">
                                       CV</button>
@@ -84,7 +84,7 @@ const Navbar = () => {
                   </div>
               </div>
               {isNav && (
-                  <div className=' md:hidden'>
+                  <div className=' md:hidden pb-3'>
                       <div className=' px-2 pt-2 space-y-1 sm:px-3'>
                       <Link to="/" className="block py-2 px-3 text-gray-900 rounded hover:bg-zinc-400 md:hover:bg-transparent md:border-0 md:hover:text-sky-600 md:p-0 dark:text-white md:dark:hover:text-sky-600 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:hover:underline"
                                     spy={true} smooth={true} offset={50} duration={500}>Inicio</Link>
