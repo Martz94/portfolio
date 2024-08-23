@@ -90,9 +90,9 @@ const Navbar = () => {
                                     spy={true} smooth={true} offset={50} duration={500}>Inicio</Link>
                               <Link to="aboutme" className="block py-2 px-3 text-gray-900 rounded hover:bg-zinc-400 md:hover:bg-transparent md:border-0 md:hover:text-sky-600 md:p-0 dark:text-white md:dark:hover:text-sky-600 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:hover:underline"
                                     spy={true} smooth={true} offset={-100} duration={500}>Sobre mi</Link>
-                              <Link to="skills" className="block py-2 px-3 text-gray-900 rounded hover:bg-zinc-400 md:hover:bg-transparent md:border-0 md:hover:text-sky-600 md:p-0 dark:text-white md:dark:hover:text-sky-600 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:hover:underline"
-                                    spy={true} smooth={true} offset={-50} duration={500}>Habilidades</Link>
                               <Link to="proyects" className="block py-2 px-3 text-gray-900 rounded hover:bg-zinc-400 md:hover:bg-transparent md:border-0 md:hover:text-sky-600 md:p-0 dark:text-white md:dark:hover:text-sky-600 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:hover:underline"
+                                    spy={true} smooth={true} offset={-50} duration={500}>Habilidades</Link>
+                              <Link to="skills" className="block py-2 px-3 text-gray-900 rounded hover:bg-zinc-400 md:hover:bg-transparent md:border-0 md:hover:text-sky-600 md:p-0 dark:text-white md:dark:hover:text-sky-600 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:hover:underline"
                                     spy={true} smooth={true} offset={-50} duration={500}>Proyectos</Link>
                               <Link to="contact" className="block py-2 px-3 text-gray-900 rounded hover:bg-zinc-400 md:hover:bg-transparent md:border-0 md:hover:text-sky-600 md:p-0 dark:text-white md:dark:hover:text-sky-600 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:hover:underline"
                                     spy={true} smooth={true} offset={-50} duration={500}>Contacto</Link>
