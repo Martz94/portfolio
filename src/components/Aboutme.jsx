@@ -3,6 +3,7 @@ import { IoRemoveOutline } from "react-icons/io5";
 import { BsTelephoneForwardFill } from "react-icons/bs";
 import { FaFolderOpen } from "react-icons/fa";
 import { IoSchool } from "react-icons/io5";
+import { AiTwotoneMail } from "react-icons/ai";
 
 const Aboutme = () => {
   return (
@@ -18,20 +19,18 @@ const Aboutme = () => {
             <h3 className=' text-zinc-800 dark:text-zinc-200 z-10 font-medium text-2xl text-center '>Hola, mi nombre es Uriel Martínez Pascual</h3>
             <h3 className=' text-sky-700 z-10 text-2xl text-center mb-4'>Desarrollador Web</h3> 
             <div>
-              <p className=' text-zinc-700 dark:text-zinc-400'>Soy Desarrollador web Front-End con una carrera profesional en Ingeniería en Informática. he realizados proyectos  y colaboraciones que me han ayudado a seguir desarrollándome, 
-                así como también actualizandome con las nuevas tecnologias. Autodidacta,  iniciativa, comprometido y responsable. Pasion por la programacion y desarrollo web.</p>
-                <div className=' flex gap-5'>
+              <p className=' text-zinc-700 dark:text-zinc-400'>Soy Desarrollador web Front-End con una carrera profesional en Ingeniería en Informática. he realizados proyectos  y colaboraciones que me han ayudado a ampliar mis conocimientos, 
+                así como también actualizandome con las nuevas tecnologias. Me gusta ser autodidacta,  iniciativa, comprometido responsable, pasion por la programacion y desarrollo web.</p>
+              <div className=' flex gap-5'>
                 <ul className=' text-gray-400 mt-5'>
-                  <li className=' my-2'>
-                    <div className=" flex items-center text-sky-600 hover:text-zinc-700 dark:hover:text-zinc-200 pe-2 gap-2 cursor-pointer">
-                          <BsTelephoneForwardFill /><p className=' text-transparent hover:text-zinc-700 dark:hover:text-zinc-300'>921 123 75 12</p>
-                      </div></li>
-                  <li className=' text-zinc-700 dark:text-zinc-200 my-2'>Email: urielmartzpascual@gmail.com</li>
                   <li className=' text-zinc-700 dark:text-zinc-200 my-2'>Ciudad de México, México.</li>
                   <li className=' text-zinc-700 dark:text-zinc-200 my-2'>Freelancer</li>
-                  <li className=' text-zinc-700 dark:text-zinc-200 my-2'>Titulo: Ingeniería Informática</li>              
+                  <li className=' text-zinc-700 dark:text-zinc-200 my-2'>Titulo: Ingeniería Informática</li>
+                    <a href="tel:9211237512" className=" flex items-center text-sky-600 mt-7 hover:text-zinc-700 dark:hover:text-zinc-200 pe-2 gap-2 cursor-pointer">
+                      <BsTelephoneForwardFill className=' h-5 w-5'/>Contactar
+                    </a>
                 </ul>
-                </div>
+              </div>
             </div> 
           </div>
         </div>  
@@ -87,23 +86,23 @@ const Aboutme = () => {
                 <div className=' text-zinc-700 dark:text-zinc-400 hover:text-sky-700 dark:hover:text-sky-700'>              
                 <time className="mb-1 text-sm font-normal leading-none ">Universidad</time>
                 <h3 className="text-lg font-semibold ">Instituto Tecnologico Superior de Coatzacoalcos</h3>
-                <p className="mb-4 text-base font-normal ">Titulo en Ingenieria Informatica, donde realice diferentes proyectos durante el servicio social y residencia,</p>
+                <p className="mb-4 text-base font-normal ">Titulo en Ingenieria Informatica, realice proyectos durante el servicio social y residencia, aplicando metodologias agiles y tecnologias de acuerdo a los requerimientos.</p>
                 </div> 
               </li>
               <li className="mb-10 ms-4">
                 <div className=" absolute w-3 h-3 bg-sky-700 rounded-full mt-1.5 -start-1.5 border dark:border-gray-900 border-sky-700 dark:bg-sky-700"></div>
                 <div className=' text-zinc-700 dark:text-zinc-400 hover:text-sky-700 dark:hover:text-sky-700'> 
                 <time className="mb-1 text-sm font-normal leading-none ">Cursos</time>
-                <h3 className="text-lg font-semibold ">Cursos, Blogs, Documentacion y Recursos Web.</h3>
-                <p className="text-base font-normal">Aprediendo y Actualizandome con las nuevas tecnologias en el mercado, asi tambien noticias y tendencias.</p>
+                <h3 className="text-lg font-semibold ">Cursos, Blogs, Documentacion y Recursos online</h3>
+                <p className="text-base font-normal">Aprediendo y Actualizandome con las nuevas tecnologias en el sector, asi tambien adquiriendo informacion de tendencias y noticias relevantes de las nuevas recnologias.</p>
                 </div>
               </li>
               <li className="ms-4">
                 <div className="absolute w-3 h-3 bg-sky-700 rounded-full mt-1.5 -start-1.5 border dark:border-gray-900 border-sky-700 dark:bg-sky-700"></div>
                 <div className=' text-zinc-700 dark:text-zinc-400 hover:text-sky-700 dark:hover:text-sky-700'> 
-                <time className="mb-1 text-sm font-normal leading-none">Colaboraciones</time>
-                <h3 className="text-lg font-semibold">Equipo</h3>
-                <p className="text-base font-normal">He recibido apoyo y asesoria en cuanto rutas de aprendizaje, opteniendo nuevas experiencias y compartiendo ideas.</p>
+                <time className="mb-1 text-sm font-normal leading-none">Colaboración</time>
+                <h3 className="text-lg font-semibold">Experiencia</h3>
+                <p className="text-base font-normal"> Proyecto donde se aplicaron conceptos como: Comunicación, organización, planificación y estructura del proyecto, para obtener los mejores resultados.</p>
                 </div>
               </li>
             </ol>
