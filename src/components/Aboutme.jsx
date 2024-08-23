@@ -12,7 +12,7 @@ const Aboutme = () => {
         <IoRemoveOutline className='text-sky-700 mx-auto h-10 w-20 pt-0 mb-10'/>
         <div className=' max-w-screen-lg block lg:flex mx-auto'>
           <div className=' sm:w-1/2 mx-auto w-full sm:px-2'>
-            <img src="/fotoperffil2.png" alt="perfil2" className=' object-cover max-h-[28rem] -mt-10  mx-auto'/>
+            <img src="/fotoperffil2.png" alt="perfil2" className=' object-cover max-h-[28rem] -mt-10 mx-auto'/>
           </div>
           <div className=' w-auto lg:w-1/2 mx-auto mt-8 lg:mt-0 sm:px-2' id='about'>
             <h3 className=' text-zinc-800 dark:text-zinc-200 z-10 font-medium text-2xl text-center '>Hola, mi nombre es Uriel Martínez Pascual</h3>
