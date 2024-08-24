@@ -25,7 +25,7 @@ const Aboutme = () => {
                 <ul className=' text-gray-400 mt-5'>
                   <li className=' text-zinc-700 dark:text-zinc-200 my-2'>Ciudad de México, México.</li>
                   <li className=' text-zinc-700 dark:text-zinc-200 my-2'>Freelancer</li>
-                  <li className=' text-zinc-700 dark:text-zinc-200 my-2'>Titulo: Ingeniería Informática</li>
+                  <li className=' text-zinc-700 dark:text-zinc-200 my-2'>Ingeniero en Informática</li>
                     <a href="tel:9211237512" className=" flex items-center text-sky-600 mt-7 hover:text-zinc-700 dark:hover:text-zinc-200 pe-2 gap-2 cursor-pointer">
                       <BsTelephoneForwardFill className=' h-5 w-5'/>Contactar
                     </a>
@@ -94,15 +94,7 @@ const Aboutme = () => {
                 <div className=' text-zinc-700 dark:text-zinc-400 hover:text-sky-700 dark:hover:text-sky-700'> 
                 <time className="mb-1 text-sm font-normal leading-none ">Cursos</time>
                 <h3 className="text-lg font-semibold ">Cursos, Blogs, Documentacion y Recursos online</h3>
-                <p className="text-base font-normal">Aprediendo y Actualizandome con las nuevas tecnologias en el sector, asi tambien adquiriendo informacion de tendencias y noticias relevantes de las nuevas recnologias.</p>
-                </div>
-              </li>
-              <li className="ms-4">
-                <div className="absolute w-3 h-3 bg-sky-700 rounded-full mt-1.5 -start-1.5 border dark:border-gray-900 border-sky-700 dark:bg-sky-700"></div>
-                <div className=' text-zinc-700 dark:text-zinc-400 hover:text-sky-700 dark:hover:text-sky-700'> 
-                <time className="mb-1 text-sm font-normal leading-none">Colaboración</time>
-                <h3 className="text-lg font-semibold">Experiencia</h3>
-                <p className="text-base font-normal"> Proyecto donde se aplicaron conceptos como: Comunicación, organización, planificación y estructura del proyecto, para obtener los mejores resultados.</p>
+                <p className="text-base font-normal">Aprediendo y ampliando mis conocimientos con las nuevas tecnologias que van surgiendo, buscando tendencias he informes de las mismas, añadiendolos a mis habilidades para mantenerme actualizado.</p>
                 </div>
               </li>
             </ol>
