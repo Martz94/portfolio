@@ -5,6 +5,8 @@ import Imagen3 from '/proyecto3.png'
 import Imagen4 from '/proyecto4.png'
 import Imagen5 from '/proyecto5.png'
 import Imagen6 from '/proyecto6.png'
+import Imagen7 from '/proyecto7.png'
+import Imagen8 from '/proyecto8.png'
 import { Slide, Fade } from 'react-awesome-reveal'
 import { IoRemoveOutline } from "react-icons/io5";
 
@@ -51,6 +53,20 @@ const CardData = [
       desc: "Tecnologías: React, API Rest y Bootstrap",
       url: "https://characters-rickymorty.netlify.app"
   },
+  {
+    id: 7,
+    img: Imagen7,
+    title: "Menu de comida",
+    desc: "Tecnologías: React, API Rest y Tailwind CSS",
+    url: "https://menu-app-rts.vercel.app/"
+},
+{
+  id: 8,
+  img: Imagen8,
+  title: "Control de Gastos",
+  desc: "Tecnologías: React, API Rest, Tailwind CSS y Hooks",
+  url: "https://control-de-gastosapp.netlify.app/"
+},
 ]
 
 const Proyects = () => {
@@ -60,7 +76,7 @@ const Proyects = () => {
           <h3 className=' text-sky-700 decoration-4 decoration-sky-700 z-10 font-medium text-2xl lg:text-4xl text-center pt-20 pb-0'>Proyectos</h3>
           <IoRemoveOutline className='text-sky-700 mx-auto h-10 w-20 pt-0 mb-10 hover:text-sky-700'/>
               {/*seccion card */}
-              <div className=' grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center gap-6'>
+              <div className=' grid grid-cols-2 md:grid-cols-3 place-items-center gap-6'>
                   {CardData.map(({ id, img, title, desc, url}) => {
                     return(
                   <div 
@@ -72,7 +88,7 @@ const Proyects = () => {
                   src={img} 
                   alt="Louvre" 
                   className=' md:w-full md:max-w-[400px] md:h-[220px] 
-                  rounded-lg transition duration-300 ease-in-out hover:scale-110'
+                  rounded-lg object-cover transition duration-300 ease-in-out hover:scale-110'
                     />
                     {/* overlay seccion */}
                     <div className=' absolute left-0 top-[-100%] 
