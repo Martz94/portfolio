@@ -76,7 +76,7 @@ const Proyects = () => {
           <h3 className=' text-sky-700 decoration-4 decoration-sky-700 z-10 font-medium text-2xl lg:text-4xl text-center pt-20 pb-0'>Proyectos</h3>
           <IoRemoveOutline className='text-sky-700 mx-auto h-10 w-20 pt-0 mb-10 hover:text-sky-700'/>
               {/*seccion card */}
-              <div className=' grid grid-cols-2 md:grid-cols-3 place-items-center gap-6'>
+              <div className=' grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center gap-6'>
                   {CardData.map(({ id, img, title, desc, url}) => {
                     return(
                   <div 
