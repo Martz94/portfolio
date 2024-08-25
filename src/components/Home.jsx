@@ -31,7 +31,7 @@ const Home = () => {
             <div className=" ms-10 md:ms-0 pt-3 gap-5 text-white flex mt-14 sm:justify-between justify-start">
               <a href="https://www.linkedin.com/in/uriel-martinez-41ab2a116/"> <BsLinkedin className=" w-10 h-10 animate-pulse animate-infinite animate-duration-[3000ms] hover:text-sky-700" /></a>
               <a href="https://github.com/Martz94"><BsGithub className=" w-10 h-10 animate-pulse animate-infinite animate-duration-[3000ms] hover:text-sky-700" /></a>
-              <a href="mailto:urielmartzpascual@gmail.com?Subject=Hola,%20Estoy%20interesado(a)%20en%20tu%20perfil"><AiTwotoneMail className=" w-11 h-11 animate-fade-left animate-once hover:text-sky-700"/></a>
+              <a href="mailto:urielmartzpascual@gmail.com?Subject=Hola,%20Estoy%20interesado(a)%20en%20tu%20perfil"><AiTwotoneMail className=" w-11 h-11 animate-pulse animate-infinite animate-duration-[3000ms] hover:text-sky-700"/></a>
             </div>
           </div>
           <div>
