@@ -10,11 +10,11 @@ const Aboutme = () => {
     <div id='aboutme' className=' dark:bg-zinc-900 bg-neutral-300 max-w-screen-lg mx-auto block justify-center mb-16 mt-32 px-5'>
         <h3 className=' text-sky-700 decoration-4 decoration-sky-700 z-10 font-medium text-2xl lg:text-4xl text-center pb-0'>Sobre mi</h3>
         <IoRemoveOutline className='text-sky-700 mx-auto h-10 w-20 pt-0 mb-10'/>
-        <div className=' max-w-screen-lg block lg:flex mx-auto'>
+        <div className=' max-w-screen-lg block md:flex mx-auto'>
           <div className=' sm:w-1/2 mx-auto w-full sm:px-2'>
             <img src="/fotoperffil2.png" alt="perfil2" className=' object-cover max-h-[28rem] -mt-10 mx-auto'/>
           </div>
-          <div className=' w-auto lg:w-1/2 mx-auto mt-8 lg:mt-0 sm:px-2' id='about'>
+          <div className=' w-auto md:w-1/2 mx-auto mt-8 lg:mt-0 sm:px-2' id='about'>
             <h3 className=' text-zinc-800 dark:text-zinc-300 z-10 font-medium text-2xl mb-2'>Hola, mi nombre es Uriel Martínez Pascual</h3>
             <div>
               <p className=' text-zinc-700 dark:text-zinc-400'>Desarrollador web Front-End con carrera profesional en Ingeniería en Informática. He realizados proyectos independientes y colaboraciones que me han ayudado a ampliar mis conocimientos, 
