@@ -19,36 +19,36 @@ const CardData = [
     {
         id: 2,
         img: Imagen2,
-        title: "Contador de Calorias",
-        desc: "Tecnologias: React, TypeScript, Tailwind CSS",
+        title: "Contador de Calorías",
+        desc: "Tecnologías: React, TypeScript, Tailwind CSS",
         url: "https://contador-de-calorias-gamma.vercel.app"
     },
     {
         id: 3,
         img: Imagen3,
         title: "Cotizador de Criptomonedas",
-        desc: " Tecnologias: React, API Rest y Styled",
+        desc: " Tecnologías: React, API Rest y Styled",
         url: "https://cripto-price-app.netlify.app"
     },
     {
       id: 4,
       img: Imagen4,
       title: "Consultor de Clima",
-      desc: "Tecnologias: React, API Rest, TypeScript y module CSS",
+      desc: "Tecnologías: React, API Rest, TypeScript y module CSS",
       url: "https://app-clima-rt.netlify.app"
   },
   {
       id: 5,
       img: Imagen5,
       title: "Registro de Consulta",
-      desc: "Tecnologias: React, TypeScript y Tailwind CSS",
+      desc: "Tecnologías: React, TypeScript y Tailwind CSS",
       url: "https://consultas-veterinaria-app.netlify.app"
   },
   {
       id: 6,
       img: Imagen6,
       title: "Characters R&M",
-      desc: "Tecnologias: React, API Rest y Bootstrap",
+      desc: "Tecnologías: React, API Rest y Bootstrap",
       url: "https://characters-rickymorty.netlify.app"
   },
 ]

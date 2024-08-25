@@ -3,7 +3,6 @@ import { IoRemoveOutline } from "react-icons/io5";
 import { BsTelephoneForwardFill } from "react-icons/bs";
 import { FaFolderOpen } from "react-icons/fa";
 import { IoSchool } from "react-icons/io5";
-import { AiTwotoneMail } from "react-icons/ai";
 
 const Aboutme = () => {
   return (
@@ -16,20 +15,19 @@ const Aboutme = () => {
             <img src="/fotoperffil2.png" alt="perfil2" className=' object-cover max-h-[28rem] -mt-10 mx-auto'/>
           </div>
           <div className=' w-auto lg:w-1/2 mx-auto mt-8 lg:mt-0 sm:px-2' id='about'>
-            <h3 className=' text-zinc-800 dark:text-zinc-200 z-10 font-medium text-2xl text-center '>Hola, mi nombre es Uriel Martínez Pascual</h3>
-            <h3 className=' text-sky-700 z-10 text-2xl text-center mb-4'>Desarrollador Web</h3> 
+            <h3 className=' text-zinc-800 dark:text-zinc-300 z-10 font-medium text-2xl mb-2'>Hola, mi nombre es Uriel Martínez Pascual</h3>
             <div>
-              <p className=' text-zinc-700 dark:text-zinc-400'>Soy Desarrollador web Front-End con una carrera profesional en Ingeniería en Informática. he realizados proyectos  y colaboraciones que me han ayudado a ampliar mis conocimientos, 
-                así como también actualizandome con las nuevas tecnologias. Me gusta ser autodidacta,  iniciativa, comprometido responsable, pasion por la programacion y desarrollo web.</p>
-              <div className=' flex gap-5'>
-                <ul className=' text-gray-400 mt-5'>
-                  <li className=' text-zinc-700 dark:text-zinc-200 my-2'>Ciudad de México, México.</li>
-                  <li className=' text-zinc-700 dark:text-zinc-200 my-2'>Freelancer</li>
-                  <li className=' text-zinc-700 dark:text-zinc-200 my-2'>Ingeniero en Informática</li>
-                    <a href="tel:9211237512" className=" flex items-center text-sky-600 mt-7 hover:text-zinc-700 dark:hover:text-zinc-200 pe-2 gap-2 cursor-pointer">
-                      <BsTelephoneForwardFill className=' h-5 w-5'/>Contactar
-                    </a>
+              <p className=' text-zinc-700 dark:text-zinc-400'>Desarrollador web Front-End con carrera profesional en Ingeniería en Informática. He realizados proyectos independientes y colaboraciones que me han ayudado a ampliar mis conocimientos, 
+                así como también actualizando mis habilidades con las nuevas tecnologías. Me gusta ser autodidacta,  iniciativa, comprometido responsable, pasión por la programación y desarrollo web.</p>
+              <div className=' block gap-5'>
+                <ul className=' text-gray-400 mt-10'> 
+                  <li className=' text-zinc-700 dark:text-zinc-300 py-1'>Cuidad de México, México.</li>
+                  <li className=' text-zinc-700 dark:text-zinc-300 '>Desarrollador Web Front-End</li>
+                  <li className=' text-zinc-700 dark:text-zinc-300 py-1'>Freelancer</li>     
                 </ul>
+                <a href="tel:9211237512" className=" flex items-center text-sky-600 mt-14 hover:text-zinc-700 dark:hover:text-zinc-200 pe-2 gap-2 cursor-pointer">
+                      <BsTelephoneForwardFill className=' h-5 w-5'/>Contactar
+                </a>
               </div>
             </div> 
           </div>
@@ -50,7 +48,7 @@ const Aboutme = () => {
                 <div className=' text-zinc-700 dark:text-zinc-400 hover:text-sky-700 dark:hover:text-sky-700'>
                   <time className="mb-1 text-sm font-normal leading-none">App Web Bolaños</time>
                   <h3 className="text-lg font-semibold">Comercio Bolaños</h3>
-                  <p className="text-base font-normal">Aplicacion web construido con tecnologias como: Next JS, TypeScript, Tailwind CSS CMS. Funcionamientos Principales Mostrar catalogos de productos, Gestion, Enlaces y Contacto.</p>
+                  <p className="text-base font-normal">Aplicación web construido con tecnologías como: Next JS, TypeScript, Tailwind CSS CMS. Funcionamientos Principales Mostrar catálogos de productos, Gestión, Enlaces y Contacto.</p>
                 </div>
               </li>
               <li className="mb-10 ms-4">
@@ -58,15 +56,15 @@ const Aboutme = () => {
                  <div className='  text-zinc-700 dark:text-zinc-400 hover:text-sky-700 dark:hover:text-sky-700'>
                   <time className="mb-1 text-sm font-normal leading-none">Freelancer</time>
                   <h3 className="text-lg font-semibold ">Aplicaciones web</h3>
-                  <p className="text-base font-normal">Aplicando mis conocimientos he realizado diferentes aplicasiones web, con tecnologias como: React, Bootstrap, Tailwind CSS, TypeScript, Next JS Y API Rest.</p>
+                  <p className="text-base font-normal">Aplicando mis conocimientos he realizado diferentes aplicaciones web, con tecnologías como: React, Bootstrap, Tailwind CSS, TypeScript, Next JS Y API Rest.</p>
                   </div>
               </li>
               <li className="mb-10 ms-4">
                 <div className="absolute w-3 h-3 bg-sky-700 rounded-full mt-1.5 -start-1.5 border dark:border-gray-900 border-sky-700 dark:bg-sky-700"></div>
                 <div className='  text-zinc-700 dark:text-zinc-400 hover:text-sky-700 dark:hover:text-sky-700'>
                   <time className="mb-1 text-sm font-normal leading-none">Residencia y Servicio</time>
-                  <h3 className="text-lg font-semibold">Proyectos Academicos</h3>
-                  <p className="mb-4 text-base font-normal">Realice proyectos web de e-commerce para la Empresa SIGSA, Tecnologias: HTML, CSS, PHP y Hosting, asi tambien un sistema de control de registro asistencial para una escuela. Tecnologias: Java, Arduino y Lector Biometrico.</p>
+                  <h3 className="text-lg font-semibold">Proyectos Académicos</h3>
+                  <p className="mb-4 text-base font-normal">Realice proyectos como: Pagina web de comercio para la Empresa SIGSA, Tecnologías: HTML, CSS, PHP y Hosting, asi también un sistema de control de registro asistencial para una escuela. Tecnologias: Java, Arduino y Lector Biometrico.</p>
                 </div>
               </li>
             </ol>
@@ -85,16 +83,16 @@ const Aboutme = () => {
                 </div>
                 <div className=' text-zinc-700 dark:text-zinc-400 hover:text-sky-700 dark:hover:text-sky-700'>              
                 <time className="mb-1 text-sm font-normal leading-none ">Universidad</time>
-                <h3 className="text-lg font-semibold ">Instituto Tecnologico Superior de Coatzacoalcos</h3>
-                <p className="mb-4 text-base font-normal ">Titulo en Ingenieria Informatica, realice proyectos durante el servicio social y residencia, aplicando metodologias agiles y tecnologias de acuerdo a los requerimientos.</p>
+                <h3 className="text-lg font-semibold ">Instituto Tecnológico Superior de Coatzacoalcos</h3>
+                <p className="mb-4 text-base font-normal ">Titulo en Ingeniería Informática, realice proyectos durante el servicio social y residencia, aplicando metodologías ágiles y tecnologías de acuerdo a los requerimientos.</p>
                 </div> 
               </li>
               <li className="mb-10 ms-4">
                 <div className=" absolute w-3 h-3 bg-sky-700 rounded-full mt-1.5 -start-1.5 border dark:border-gray-900 border-sky-700 dark:bg-sky-700"></div>
                 <div className=' text-zinc-700 dark:text-zinc-400 hover:text-sky-700 dark:hover:text-sky-700'> 
                 <time className="mb-1 text-sm font-normal leading-none ">Cursos</time>
-                <h3 className="text-lg font-semibold ">Cursos, Blogs, Documentacion y Recursos online</h3>
-                <p className="text-base font-normal">Aprediendo y ampliando mis conocimientos con las nuevas tecnologias que van surgiendo, buscando tendencias he informes de las mismas, añadiendolos a mis habilidades para mantenerme actualizado.</p>
+                <h3 className="text-lg font-semibold ">Cursos, Blogs, Documentación y Recursos online</h3>
+                <p className="text-base font-normal">Aprendiendo y ampliando mis conocimientos con las nuevas tecnologías que van surgiendo, adquiriendo información y tendencias de las mismas, añadiéndolos a mis habilidades para mantenerme actualizado.</p>
                 </div>
               </li>
             </ol>
