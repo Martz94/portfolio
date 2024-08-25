@@ -35,7 +35,7 @@ const Home = () => {
             </div>
           </div>
           <div>
-            <img src="/fotoperffil2.png" alt="foto-1" className=" -mt-5 md:mt-0 max-w-md animate-fade-left animate-once animate-duration-[3000ms] transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 px-2" />
+            <img src="/foto-perfil.png" alt="foto-1" className=" -mt-5 md:mt-0 max-w-md animate-fade-left animate-once animate-duration-[3000ms] transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 px-2" />
           </div>
         </div>
       </div>
