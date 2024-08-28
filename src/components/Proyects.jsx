@@ -11,62 +11,48 @@ import { Slide, Fade } from 'react-awesome-reveal'
 import { IoRemoveOutline } from "react-icons/io5";
 
 const CardData = [
-    {
-        id: 1,
-        img: Imagen1,
-        title: "APP Web Bolaños",
-        desc: "Construido con NextJS, TypeScript, Tailwind y CMS Contentful",
-        url: "https://www.pinturasyherrajesbolanos.com/"
-    },
-    {
-        id: 2,
-        img: Imagen2,
-        title: "Contador de Calorías",
-        desc: "Tecnologías: React, TypeScript, Tailwind CSS",
-        url: "https://contador-de-calorias-gamma.vercel.app"
-    },
-    {
-        id: 3,
-        img: Imagen3,
-        title: "Cotizador de Criptomonedas",
-        desc: " Tecnologías: React, API Rest y Styled",
-        url: "https://cripto-price-app.netlify.app"
-    },
-    {
-      id: 4,
-      img: Imagen4,
-      title: "Consultor de Clima",
-      desc: "Tecnologías: React, API Rest, TypeScript y module CSS",
-      url: "https://app-clima-rt.netlify.app"
+  {
+    id: 1,
+    img: Imagen1,
+    title: "APP Web Bolaños",
+    desc: "Construido con NextJS, TypeScript, Tailwind y CMS Contentful",
+    url: "https://www.pinturasyherrajesbolanos.com/"
   },
   {
-      id: 5,
-      img: Imagen5,
-      title: "Registro de Consulta",
-      desc: "Tecnologías: React, TypeScript y Tailwind CSS",
-      url: "https://consultas-veterinaria-app.netlify.app"
+    id: 2,
+    img: Imagen8,
+    title: "Control de Gastos",
+    desc: "Tecnologías: React, API Rest, Tailwind CSS y Hooks",
+    url: "https://control-de-gastosapp.netlify.app/"
   },
   {
-      id: 6,
-      img: Imagen6,
-      title: "Characters R&M",
-      desc: "Tecnologías: React, API Rest y Bootstrap",
-      url: "https://characters-rickymorty.netlify.app"
+    id: 3,
+    img: Imagen2,
+    title: "Contador de Calorías",
+    desc: "Tecnologías: React, TypeScript, Tailwind CSS",
+    url: "https://contador-de-calorias-gamma.vercel.app"
   },
   {
-    id: 7,
-    img: Imagen7,
-    title: "Menu de comida",
-    desc: "Tecnologías: React, API Rest y Tailwind CSS",
-    url: "https://menu-app-rts.vercel.app/"
-},
-{
-  id: 8,
-  img: Imagen8,
-  title: "Control de Gastos",
-  desc: "Tecnologías: React, API Rest, Tailwind CSS y Hooks",
-  url: "https://control-de-gastosapp.netlify.app/"
-},
+    id: 4,
+    img: Imagen3,
+    title: "Cotizador de Criptomonedas",
+    desc: " Tecnologías: React, API Rest y Styled",
+    url: "https://cripto-price-app.netlify.app"
+  },
+  {
+    id: 5,
+    img: Imagen5,
+    title: "Registro de Consulta",
+    desc: "Tecnologías: React, TypeScript y Tailwind CSS",
+    url: "https://consultas-veterinaria-app.netlify.app"
+  },
+  {
+    id: 6,
+    img: Imagen6,
+    title: "Characters R&M",
+    desc: "Tecnologías: React, API Rest y Bootstrap",
+    url: "https://characters-rickymorty.netlify.app"
+  },
 ]
 
 const Proyects = () => {

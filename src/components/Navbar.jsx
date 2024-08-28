@@ -42,7 +42,7 @@ const Navbar = () => {
                               <a href='https://drive.google.com/file/d/1mTt11DOQPZWdjEor3FrwGeynnYVx_Tvi/view?usp=sharing' className=' items-center ms-auto mx-auto my-auto'>
                                   <button type="button" className=" py-1 px-5 md:py-2 md:px-7 text-sm my-auto  items-center font-medium text-zinc-300 bg-sky-700 rounded-md border border-sky-700 hover:bg-zinc-300 hover:text-sky-700 dark:bg-sky-700 dark:text-zinc-200 dark:border-sky-700 dark:hover:text-sky-700 shadow-lg hover:shadow-sky-700 dark:hover:bg-gray-700">
                                       CV</button>
-                              </a>
+                              </a>m 
                           </div>
                       <div className=' md:hidden flex items-center'>
                           <button className=' inline-flex items-center justify-center p-2 text-zinc-700 dark:text-white hover:text-sky-700
