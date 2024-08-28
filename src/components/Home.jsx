@@ -23,7 +23,7 @@ const Home = () => {
       <div id='/' className="relative flex items-center justify-center overflow-hidden scroll-mt-[80rem]">
         <video src="/video-bg1.mp4" autoPlay="{true}" loop muted className="absolute w-auto min-w-full object-fill lg:object-contain h-full lg:h-auto max-w-none opacity-50 dark:opacity-100" ></video>
         <div className=" md:-mb-2 block md:flex max-w-screen-lg px-5 md:mx-auto gap-5 z-10">
-          <div className=" mt-36 z-20 sm:mx-auto px-2 ms-20 lg:pt-0">
+          <div className=" mt-36 z-20 sm:mx-auto px-2 ms-10 lg:pt-0">
             <h5 className=" text-sky-800 text-2xl sm:text-4xl my-3 ps-10 md:ps-0 md:mx-auto">{text}<Cursor cursorBlinking cursorStyle="|" cursorColor="#fff" /></h5>
             <h1 className=" text-white dark:text-zinc-200 text-5xl sm:text-6xl xl:text-8xl font-bold my-3 animate-fade-right animate-once ms-10 md:mx-auto">URIEL </h1>
             <h1 className=" text-white dark:text-zinc-200 text-5xl sm:text-6xl xl:text-8xl font-bold my-3 animate-fade-right animate-once ms-10 md:mx-auto">MARTINEZ</h1>

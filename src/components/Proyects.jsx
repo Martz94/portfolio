@@ -2,10 +2,8 @@ import React from 'react'
 import Imagen1 from '/proyecto1.png'
 import Imagen2 from '/proyecto2.png'
 import Imagen3 from '/proyecto3.png'
-import Imagen4 from '/proyecto4.png'
 import Imagen5 from '/proyecto5.png'
 import Imagen6 from '/proyecto6.png'
-import Imagen7 from '/proyecto7.png'
 import Imagen8 from '/proyecto8.png'
 import { Slide, Fade } from 'react-awesome-reveal'
 import { IoRemoveOutline } from "react-icons/io5";
@@ -109,4 +107,4 @@ const Proyects = () => {
   )
 }
 
-export default Proyects
+export default Proyects;
