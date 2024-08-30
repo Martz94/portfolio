@@ -12,26 +12,48 @@ const Aboutme = () => {
         <IoRemoveOutline className='text-sky-700 mx-auto h-10 w-20 pt-0 mb-10'/>
         <div className=' max-w-screen-lg block md:flex mx-auto'>
           <div className=' sm:w-1/2 mx-auto w-full sm:px-2'>
-            <img src="/fotoperffil2.png" alt="perfil2" className=' object-cover max-h-[28rem] -mt-10 mx-auto'/>
+            <img src="/fotoperffil2.png" alt="perfil2" className=' object-cover max-h-[28rem] invisible md:visible -mt-10 mx-auto -z-0 md:z-10'/>
           </div>
-          <div className=' w-auto md:w-1/2 mx-auto mt-8 lg:mt-0 sm:px-2' id='about'>
+          <div className=' w-auto md:w-1/2 mx-auto -mt-96 md:mt-0 sm:px-2' id='about'>
             <h3 className=' text-zinc-800 dark:text-zinc-300 z-10 font-medium text-2xl mb-2'>Hola, mi nombre es Uriel Martínez Pascual</h3>
             <div>
               <p className=' text-zinc-700 dark:text-zinc-400'>Desarrollador web Front-End con carrera profesional en Ingeniería en Informática. He realizados proyectos independientes y colaboraciones que me han ayudado a ampliar mis conocimientos, 
                 así como también actualizando mis habilidades con las nuevas tecnologías. Me gusta ser autodidacta,  iniciativa, comprometido responsable, pasión por la programación y desarrollo web.</p>
-              <div className=' block gap-5'>
-                <ul className=' text-gray-400 mt-10'> 
-                  <li className=' text-zinc-700 dark:text-zinc-300 py-1'>Cuidad de México, México.</li>
-                  <li className=' text-zinc-700 dark:text-zinc-300 '>Desarrollador Web Front-End</li>
-                  <li className=' text-zinc-700 dark:text-zinc-300 py-1'>Freelancer</li>     
+              <div className=' block gap-5 mt-5'>
+                <h2 class="mb-2 font-semibold text-zinc-800 dark:text-zinc-300">Servicios:</h2>
+                <ul class="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
+                  <li class="flex items-center">
+                    <svg class="w-3.5 h-3.5 me-2 text-sky-700 dark:text-sky-700 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                    </svg>
+                    Experiencia de Usuario
+                  </li>
+                  <li class="flex items-center">
+                    <svg class="w-3.5 h-3.5 me-2 text-sky-700 dark:text-sky-700 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                    </svg>
+                    Diseño Responsivo
+                  </li>
+                  <li class="flex items-center">
+                    <svg class="w-3.5 h-3.5 me-2 text-sky-700 dark:text-sky-700 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                    </svg>
+                    Hosting y Dominio
+                  </li>
+                  <li class="flex items-center">
+                    <svg class="w-3.5 h-3.5 me-2 text-sky-700 dark:text-sky-700 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                    </svg>
+                    SEO
+                  </li>
                 </ul>
-                <a href="tel:9211237512" className=" flex items-center text-sky-600 mt-14 hover:text-zinc-700 dark:hover:text-zinc-200 pe-2 gap-2 cursor-pointer">
-                      <BsTelephoneForwardFill className=' h-5 w-5'/>Contactar
+                <a href="tel:9211237512" className=" flex items-center text-sky-600 mt-6 hover:text-zinc-700 dark:hover:text-zinc-200 pe-2 gap-2 cursor-pointer">
+                  <BsTelephoneForwardFill className=' h-5 w-5' />Contactar
                 </a>
               </div>
-            </div> 
+            </div>
           </div>
-        </div>  
+        </div>
         <div className='mt-14 block md:flex gap-5 px-5'>
         <div className=' w-auto md:w-1/2'>
             <div className=' text-sky-700 hover:text-zinc-700 dark:hover:text-zinc-300'>
