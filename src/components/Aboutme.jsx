@@ -20,7 +20,7 @@ const Aboutme = () => {
               <p className=' text-zinc-700 dark:text-zinc-400'>Desarrollador web Front-End con carrera profesional en Ingeniería en Informática. He realizados proyectos independientes y colaboraciones que me han ayudado a ampliar mis conocimientos, 
                 así como también actualizando mis habilidades con las nuevas tecnologías. Me gusta ser autodidacta,  iniciativa, comprometido responsable, pasión por la programación y desarrollo web.</p>
               <div className=' block gap-5 mt-5'>
-                <h2 class="mb-2 font-semibold text-zinc-800 dark:text-zinc-300">Servicios:</h2>
+                <h2 class=" mb-1 font-semibold text-zinc-800 dark:text-zinc-300">Servicios:</h2>
                 <ul class="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
                   <li class="flex items-center">
                     <svg class="w-3.5 h-3.5 me-2 text-sky-700 dark:text-sky-700 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -47,7 +47,7 @@ const Aboutme = () => {
                     SEO
                   </li>
                 </ul>
-                <a href="tel:9211237512" className=" flex items-center text-sky-600 mt-6 hover:text-zinc-700 dark:hover:text-zinc-200 pe-2 gap-2 cursor-pointer">
+                <a href="tel:9211237512" className=" flex items-center text-sky-600 mt-5 hover:text-zinc-700 dark:hover:text-zinc-200 pe-2 gap-2 cursor-pointer">
                   <BsTelephoneForwardFill className=' h-5 w-5' />Contactar
                 </a>
               </div>
