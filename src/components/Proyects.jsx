@@ -4,7 +4,10 @@ import Imagen2 from '/proyecto2.png'
 import Imagen3 from '/proyecto3.png'
 import Imagen5 from '/proyecto5.png'
 import Imagen6 from '/proyecto6.png'
+import Imagen4 from '/proyecto4.png'
+import Imagen7 from '/proyecto7.png'
 import Imagen8 from '/proyecto8.png'
+import Imagen9 from '/proyecto9.png'
 import { Slide, Fade } from 'react-awesome-reveal'
 import { IoRemoveOutline } from "react-icons/io5";
 
@@ -18,7 +21,7 @@ const CardData = [
   },
   {
     id: 2,
-    img: Imagen8,
+    img: Imagen4,
     title: "Control de Gastos",
     desc: "Tecnologías: React, API Rest, Tailwind CSS y Hooks",
     url: "https://control-de-gastosapp.netlify.app/"
@@ -49,7 +52,28 @@ const CardData = [
     img: Imagen6,
     title: "Characters R&M",
     desc: "Tecnologías: React, API Rest y Bootstrap",
-    url: "https://characters-rickymorty.netlify.app"
+    url: "https://rickandmorty-app-api.netlify.app/"
+  },
+  {
+    id: 7,
+    img: Imagen7,
+    title: "Menu de comida",
+    desc: "Tecnologías: React, Hooks y Tailwind CSS",
+    url: "https://menu-app-rts.vercel.app/"
+  },
+  {
+    id: 8,
+    img: Imagen8,
+    title: "PokeAPI",
+    desc: "Tecnologías: React, Context API y Tailwind CSS",
+    url: "https://pokemonsapi-reactjs.netlify.app/"
+  },
+  {
+    id: 9,
+    img: Imagen9,
+    title: "Marvel Comics",
+    desc: "Tecnologías: React, Axios y Tailwind CSS",
+    url: "https://marvel-app-martz.netlify.app/"
   },
 ]
 
@@ -88,7 +112,7 @@ const Proyects = () => {
                             <p>{desc}</p> 
                           </Fade>
                           <div>
-                            <a href={url}>
+                            <a href={url}  target="_blank">
                             <button type="button" className=' border
                              border-white px-4 py-2 rounded-lg
                              hover:bg-black/20 duration-300 hover:bg-sky-700'>

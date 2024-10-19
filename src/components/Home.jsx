@@ -29,9 +29,9 @@ const Home = () => {
             <h1 className=" text-white dark:text-zinc-200 text-5xl sm:text-6xl xl:text-8xl font-bold my-3 animate-fade-right animate-once ms-10 md:mx-auto">MARTINEZ</h1>
             <h5 className=" text-sky-700 dark:text-gray-400 text-2xl sm:text-4xl my-5 animate-bounce animate-infinite ms-10 md:mx-auto ">Desarrollador Web</h5>
             <div className=" ms-10 md:ms-0 pt-3 gap-5 text-white flex mt-14 lg:justify-between justify-start">
-              <a href="https://www.linkedin.com/in/uriel-martinez-pascual-41ab2a116/"> <BsLinkedin className=" w-10 h-10 animate-pulse animate-infinite animate-duration-[3000ms] hover:text-sky-700" /></a>
-              <a href="https://github.com/Martz94"><BsGithub className=" w-10 h-10 animate-pulse animate-infinite animate-duration-[3000ms] hover:text-sky-700" /></a>
-              <a href="mailto:urielmartzpascual@gmail.com?Subject=Hola,%20Estoy%20interesado(a)%20en%20tu%20perfil"><AiTwotoneMail className=" w-11 h-11 animate-pulse animate-infinite animate-duration-[3000ms] hover:text-sky-700"/></a>
+              <a href="https://www.linkedin.com/in/uriel-martinez-pascual-41ab2a116/"  target="_blank"> <BsLinkedin className=" w-10 h-10 animate-pulse animate-infinite animate-duration-[3000ms] hover:text-sky-700"/></a>
+              <a href="https://github.com/Martz94"  target="_blank"><BsGithub className=" w-10 h-10 animate-pulse animate-infinite animate-duration-[3000ms] hover:text-sky-700"/></a>
+              <a href="mailto:urielmartzpascual@gmail.com?Subject=Hola,%20Estoy%20interesado(a)%20en%20tu%20perfil"  target="_blank"><AiTwotoneMail className=" w-11 h-11 animate-pulse animate-infinite animate-duration-[3000ms] hover:text-sky-700"  target="_blank"/></a>
             </div>
           </div>
           <div>

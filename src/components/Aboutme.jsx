@@ -48,7 +48,7 @@ const Aboutme = () => {
                   </li>
                 </ul>
                 <a href="tel:9211237512" className=" flex items-center text-sky-600 mt-5 hover:text-zinc-700 dark:hover:text-zinc-200 pe-2 gap-2 cursor-pointer">
-                  <BsTelephoneForwardFill className=' h-5 w-5' />TELEFONO
+                  <BsTelephoneForwardFill className=' h-5 w-5'/>TELEFONO
                 </a>
               </div>
             </div>
