@@ -38,7 +38,7 @@ const Navbar = () => {
                                   </div>
                               </div>
                               <p className=" -ms-5 md:ms-0 md:text-zinc-900 dark:md:text-white text-transparent my-auto">|</p>
-                              <a href='https://drive.google.com/file/d/1qKgzccAUE2rtgjn0qoMGenLzvZ-P5maO/view?usp=sharing' className=' items-center ms-auto mx-auto my-auto'  target="_blank">
+                              <a href='https://drive.google.com/file/d/11Uhsix8lu8G77gGbRziBAmUbamTAtzXa/view?usp=sharing' className=' items-center ms-auto mx-auto my-auto'  target="_blank">
                                   <button type="button" className=" py-1 px-5 md:px-7 text-sm my-auto  items-center font-medium text-zinc-300 bg-sky-700 rounded-md border border-sky-700 hover:bg-zinc-300 hover:text-sky-700 dark:bg-sky-700 dark:text-zinc-200 dark:border-sky-700 dark:hover:text-sky-700 shadow-lg hover:shadow-sky-700 dark:hover:bg-gray-700">
                                       CV</button>
                               </a>
