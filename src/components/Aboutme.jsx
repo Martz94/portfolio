@@ -17,7 +17,7 @@ const Aboutme = () => {
           <div className=' w-auto md:w-1/2 mx-auto -mt-96 md:mt-0 sm:px-2' id='about'>
             <h3 className=' text-zinc-800 dark:text-zinc-300 z-10 font-medium text-2xl mb-2'>Hola, mi nombre es Uriel Martínez Pascual</h3>
             <div>
-              <p className=' text-zinc-700 dark:text-zinc-400'>Desarrollador web Front-End con carrera profesional en Ingeniería en Informática. He realizados proyectos independientes y colaboraciones que me han ayudado a ampliar mis conocimientos, 
+              <p className=' text-zinc-700 dark:text-zinc-400'>Desarrollador web Front-End con carrera profesional en Ingeniería en Informática. He trabajado en empresas y realizados proyectos independientes y colaboraciones que me han ayudado a ampliar mis conocimientos, 
                 así como también actualizando mis habilidades con las nuevas tecnologías. Me gusta ser autodidacta,  iniciativa, comprometido responsable, pasión por la programación y desarrollo web.</p>
               <div className=' block gap-5 mt-5'>
                 <h2 class=" mb-1 font-semibold text-zinc-800 dark:text-zinc-300">Servicios:</h2>
@@ -67,6 +67,14 @@ const Aboutme = () => {
                     <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
                   </span>
                 </div>
+                <div className=' text-zinc-700 dark:text-zinc-400 hover:text-sky-700 dark:hover:text-sky-700'>
+                  <time className="mb-1 text-sm font-normal leading-none">Mota-Engil</time>
+                  <h3 className="text-lg font-semibold">Analista de Sistemas</h3>
+                  <p className="text-base font-normal">Desarrollo y mantenimiento de los proyectos de la empresa, trabajo en equipo y aplicando tecnologias como: React, SASS, Docker, Vite, Material UI y API Rest,</p>
+                </div>
+              </li>
+              <li className="mb-10 ms-4">
+                <div className="absolute w-3 h-3 bg-sky-700 rounded-full mt-1.5 -start-1.5 border dark:border-gray-900 border-sky-700 dark:bg-sky-700"></div>
                 <div className=' text-zinc-700 dark:text-zinc-400 hover:text-sky-700 dark:hover:text-sky-700'>
                   <time className="mb-1 text-sm font-normal leading-none">App Web Bolaños</time>
                   <h3 className="text-lg font-semibold">Comercio Bolaños</h3>

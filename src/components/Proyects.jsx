@@ -50,9 +50,9 @@ const CardData = [
   {
     id: 6,
     img: Imagen6,
-    title: "Characters R&M",
-    desc: "Tecnologías: React, API Rest y Bootstrap",
-    url: "https://rickandmorty-app-api.netlify.app/"
+    title: "Personajes R&M",
+    desc: "Tecnologías: React, API Rest, Tailwind y Firebase, Login: urielmartzpascual@gmail.com/Visita2025",
+    url: "https://rick-y-morty-reactapp.netlify.app/"
   },
   {
     id: 7,
@@ -114,7 +114,7 @@ const Proyects = () => {
                           <div>
                             <a href={url}  target="_blank">
                             <button type="button" className=' border
-                             border-white px-4 py-2 rounded-lg
+                             border-white px-4 py-1 rounded-lg
                              hover:bg-black/20 duration-300 hover:bg-sky-700'>
                               ver</button>
                               </a>

@@ -27,7 +27,7 @@ const Skills = () => {
           <div className="block max-w-sm p-6 rounded-md hover:shadow-lg border bg-zinc-400 border-zinc-400 dark:border-zinc-700 dark:bg-zinc-800 hover:shadow-sky-700 justify-center hover:border-sky-700 mx-auto sm:mx-0 mb-5 sm:mb-0 ">
             <SiFramework  className=' w-16 h-16 sm:w-20 md:h-20 lg:w-24 lg:h-24 mx-auto text-sky-700 mb-2 hover:text-zinc-300'/>
             <h5 className="mb-2 text-xl md:text-2xl font-semibold tracking-tight text-gray-900 dark:text-zinc-300 mx-auto">Herramientas de Desarrollo</h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400 mx-auto">Github, Note JS, VS Code, Vite, webPack</p>
+            <p className="font-normal text-gray-700 dark:text-gray-400 mx-auto">Github, Docker, VS Code, Vite, webPack</p>
           </div>
           <div className="block max-w-sm p-6 rounded-md hover:shadow-lg border bg-zinc-400 border-zinc-400 dark:border-zinc-700 dark:bg-zinc-800 hover:shadow-sky-700 justify-center hover:border-sky-700 mx-auto sm:mx-0 mb-5 sm:mb-0 ">
             <FaBorderStyle className=' w-16 h-16 sm:w-20 md:h-20 lg:w-24 lg:h-24 mx-auto text-sky-700 mb-2 hover:text-zinc-300'/>

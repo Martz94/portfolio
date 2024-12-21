@@ -28,7 +28,7 @@ const Contact = () => {
                         <div className="form-group">
                             <textarea placeholder="Escribir Mensaje..." className=" w-full p-2 rounded-md bg-zinc-700 text-white" name="message" rows="10" required></textarea>
                         </div>
-                        <button type="submit" className=" bg-sky-700 py-1 px-5 md:py-2 md;px-7 my-5 text-zinc-300 hover:bg-zinc-300 dark:hover:bg-zinc-800 hover:text-sky-700 border border-transparent hover:border-sky-700 rounded-md shadow-lg hover:shadow-sky-700">Enviar</button>
+                        <button type="submit" className=" bg-sky-700 py-1 px-5 md;px-7 my-5 text-zinc-300 hover:bg-zinc-300 dark:hover:bg-zinc-800 hover:text-sky-700 border border-transparent hover:border-sky-700 rounded-md shadow-lg hover:shadow-sky-700">Enviar</button>
                     </form>
                     <div className=' w-auto lg:w-1/2 text-zinc-300 mx-auto mt-7 lg:mt-0 mb-5 lg:mb-5'>
                         <p className=' text-base md:text-lg text-zinc-700 dark:text-zinc-300 mb-8'>Comunícate y en breve te responderé.</p>
